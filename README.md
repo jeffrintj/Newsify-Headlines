@@ -1,16 +1,71 @@
-# React + Vite
+# Newsify – React News Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Newsify is a responsive news web application built using React and Bootstrap that displays real-time news headlines using the GNews API. Users can browse news across multiple categories such as General, Technology, Business, Sports, Health, and World.
+This project demonstrates practical frontend development skills including API integration, state management, caching, error handling, and responsive UI design.
 
-Currently, two official plugins are available:
+## Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+(Will add Netlify link here after deployment)
 
-## React Compiler
+## Features
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+- Real-time news headlines using GNews API
+- Category-based filtering (General, Technology, Business, Sports, Health, World)
+- Responsive design for mobile, tablet, and desktop
+- Client-side caching using localStorage to reduce API requests
+- Error handling for API failures and rate limits
+- Fallback image support for missing news images
+- Fast and optimized performance
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React (Vite)
+- JavaScript (ES6+)
+- Bootstrap 5
+- HTML5
+- CSS3
+- GNews API
+
+## Project Structure
+
+Newsify
+│
+├── public
+│ └── news.png
+│
+├── src
+│ ├── Components
+│ │ ├── Navbar.jsx
+│ │ ├── NewsBoard.jsx
+│ │ └── NewsItem.jsx
+│ │
+│ ├── assets
+│ │ └── NEWS.jpg
+│ │
+│ ├── App.jsx
+│ ├── App.css
+│ ├── index.css
+│ └── main.jsx
+│
+├── index.html
+├── package.json
+├── vite.config.js
+└── README.md
+
+## Environment Variables
+
+This project requires the following environment variable:
+
+VITE_API_KEY=your_gnews_api_key
+
+You can get a free API key from:
+https://gnews.io
+
+## Author
+
+Jeffrin TJ
+(Full Stack Developer)
+GitHub: https://github.com/jeffrintj
+
+## Project Purpose
+This project was built to practice and demonstrate React development skills including API integration, component-based architecture, state management, caching, and frontend performance optimization.
