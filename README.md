@@ -3,9 +3,8 @@
 Newsify is a responsive news web application built using React and Bootstrap that displays real-time news headlines using the GNews API. Users can browse news across multiple categories such as General, Technology, Business, Sports, Health, and World.
 This project demonstrates practical frontend development skills including API integration, state management, caching, error handling, and responsive UI design.
 
-## Live Demo
-
-(Will add Netlify link here after deployment)
+## Project Purpose
+This project was built to practice and demonstrate React development skills including API integration, component-based architecture, state management, caching, and frontend performance optimization.
 
 ## Features
 
@@ -63,9 +62,7 @@ https://gnews.io
 
 ## Author
 
-Jeffrin TJ
-(Full Stack Developer)
-GitHub: https://github.com/jeffrintj
-
-## Project Purpose
-This project was built to practice and demonstrate React development skills including API integration, component-based architecture, state management, caching, and frontend performance optimization.
+**Jeffrin T J**
+- 💼 LinkedIn: [linkedin.com/in/jeffrin-tj](https://linkedin.com/in/jeffrin-tj)
+- 🐙 GitHub: [github.com/jeffrintj](https://github.com/jeffrintj)
+- 📧 Email: jeffrintjoy@gmail.com
